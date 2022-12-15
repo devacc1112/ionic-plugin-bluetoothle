@@ -475,7 +475,7 @@ var BluetoothLE = (function (_super) {
             plugin: 'cordova-plugin-bluetoothle-fork',
             pluginRef: 'bluetoothle',
             repo: 'https://github.com/devacc1112/cordova-plugin-bluetoothle',
-            install: 'ionic cordova plugin add cordova-plugin-bluetoothle-fork',
+            install: 'cordova plugin install https://github.com/devacc1112/cordova-plugin-bluetoothle.git',
             installVariables: [],
             platforms: ['Android', 'iOS'] // Array of platforms supported, example: ['Android', 'iOS']
         })
