@@ -472,10 +472,10 @@ var BluetoothLE = (function (_super) {
     BluetoothLE = __decorate([
         Plugin({
             pluginName: 'BluetoothLE',
-            plugin: 'cordova-plugin-bluetoothle-fork',
+            plugin: 'cordova-plugin-bluetoothle-fork-ch',
             pluginRef: 'bluetoothle',
             repo: 'https://github.com/devacc1112/cordova-plugin-bluetoothle',
-            install: 'cordova plugin install https://github.com/devacc1112/cordova-plugin-bluetoothle.git',
+            install: 'ionic cordova plugin add cordova-plugin-bluetoothle-fork-ch',
             installVariables: [],
             platforms: ['Android', 'iOS'] // Array of platforms supported, example: ['Android', 'iOS']
         })

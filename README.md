@@ -22,13 +22,13 @@
 [npm](https://www.npmjs.com/):
 
 ```sh
-npm install ionic-plugin-bluetoothle --save
+npm install ionic-plugin-bluetoothle-fork-ch --save
 ```
 
 [yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add ionic-plugin-bluetoothle
+yarn add ionic-plugin-bluetoothle-fork-ch
 ```
 
 
@@ -40,7 +40,7 @@ ionic start ionic-bluetoothle blank
 
 cd ionic-bluetoothle
 
-npm install ionic-plugin-bluetoothle --save
+npm install ionic-plugin-bluetoothle-fork-ch --save
 
 ionic cordova plugin add cordova-plugin-bluetoothle
 ```
@@ -111,7 +111,7 @@ Cannot find module '@ionic-native/bluetooth-le'.
 
 run this cmd to re-copy the file to the node_modules/@ionic-native folder
 ```sh
-node node_modules\ionic-plugin-bluetoothle\install.js
+node node_modules\ionic-plugin-bluetoothle-fork-ch\install.js
 ```
 ---
 

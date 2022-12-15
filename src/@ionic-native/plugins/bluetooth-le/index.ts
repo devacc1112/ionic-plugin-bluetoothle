@@ -50,10 +50,10 @@ export interface WriteCharacteristicParams extends DescriptorParams {
  */
 @Plugin({
   pluginName: 'BluetoothLE',
-  plugin: 'cordova-plugin-bluetoothle-fork', // npm package name, example: cordova-plugin-camera
+  plugin: 'cordova-plugin-bluetoothle-fork-ch', // npm package name, example: cordova-plugin-camera
   pluginRef: 'bluetoothle', // the variable reference to call the plugin, example: navigator.geolocation
   repo: 'https://github.com/devacc1112/cordova-plugin-bluetoothle', // the github repository URL for the plugin
-  install: 'cordova plugin install https://github.com/devacc1112/cordova-plugin-bluetoothle.git', // OPTIONAL install command, in case the plugin requires variables
+  install: 'ionic cordova plugin add cordova-plugin-bluetoothle-fork-ch', // OPTIONAL install command, in case the plugin requires variables
   installVariables: [], // OPTIONAL the plugin requires variables
   platforms: ['Android', 'iOS'] // Array of platforms supported, example: ['Android', 'iOS']
 })
